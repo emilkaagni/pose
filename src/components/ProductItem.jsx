@@ -1,7 +1,5 @@
-import React from 'react'
-import { useContext } from 'react'
+import React, { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext.jsx'
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const ProductItem = ({id,image,name,price}) => {
