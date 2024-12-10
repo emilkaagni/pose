@@ -15,7 +15,7 @@ const SearchBar = () => {
           // to add so more locations
           // || location.pathname === '/'
           
-        ){
+          ){
             setVisible(true);
         }
         else{
