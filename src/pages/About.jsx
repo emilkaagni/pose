@@ -33,8 +33,8 @@ const About = () => {
           <b>Attention to details</b>
           <p className='text-gray-600'>Each garment is crafted by skilled local artisans under strict quality control. We don't just sell Nepali wear – we create it with pride and passion right here in Nepal. </p>
         </div>
-
       </div>
+
       <NewsletterBox/>
       
     </div>
