@@ -4,12 +4,10 @@ import Title from '../components/Title'
 import CartTotal from '../components/CartTotal'
 import { assets } from '../assets/assets'
 import { useState } from 'react'
-import { ShopContext } from '../context/ShopContext'
 import {useNavigate} from 'react-router-dom'
 const PlaceOrder = () => {
   
   const [method, setMethod] = useState('cod');
-  // const {navigate} = useContext(ShopContext);
   const navigate = useNavigate()
 
   return (
